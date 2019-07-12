@@ -1,5 +1,6 @@
-package com.example.domain;
+package com.example.application;
 
+import com.example.domain.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

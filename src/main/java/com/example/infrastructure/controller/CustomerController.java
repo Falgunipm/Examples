@@ -1,7 +1,7 @@
-package com.example.application;
+package com.example.infrastructure.controller;
 
 import com.example.domain.CustomerId;
-import com.example.domain.CustomerRequest;
+import com.example.application.CustomerRequest;
 import com.example.domain.ICustomerCreator;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
