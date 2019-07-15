@@ -15,8 +15,8 @@ public class CustomerRepository implements ICustomerRepository {
 
     @Override
     public Long generateId() {
-        Random random = new Random(2);
-        return random.nextLong();
+        Random random = new Random();
+        return Long.valueOf(random.nextInt(100 - 1 + 1) + 1);
     }
 
     @Override
